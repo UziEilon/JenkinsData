@@ -1,0 +1,22 @@
+{
+    "devices": [
+     {
+       "deviceName": "311C990DA91C9CB4A36D2D6A5F296D5019D28678"
+     }  
+     
+   ],
+ 
+   "tags" : ["UziExt","XCUITEST","Mango"],
+   "projectName" : "MangoIOS",
+   "projectVersion" : "v1.1",
+   "jobName" : "MangoIOS",
+   "jobNumber" : 1 ,
+   "branch" : "master",
+ 
+   "installationDetails" : {"preCleanUp" : true, "resign" : true } ,
+ 
+ 
+   "testAppPath": "repository://PRIVATE:mango/mangoTest.ipa",
+   "appPath":   "repository://PRIVATE:mango/Mango.ipa"
+   
+ }

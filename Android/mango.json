@@ -1,0 +1,22 @@
+{
+    "devices": [
+     {
+       "deviceName": "CE0517157A234E1402"
+     } ,{
+      "deviceName": "988633475656463938"
+    } 
+     
+   ],
+ 
+   "tags" : ["UziExt","Mango","Espresso"],
+   "projectName" : "MangoPOC",
+   "projectVersion" : "V1.0",
+   "jobName" : "MangoPOC",
+   "jobNumber" : 1 ,
+   "branch" : "master",
+ 
+   "testAppPath": "repository://PRIVATE:mango/app-prod-world-debug-androidTest.apk",
+   "appPath":   "repository://PRIVATE:mango/app-prod-world-debug.apk"
+     
+   
+ }

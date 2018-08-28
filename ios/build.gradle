@@ -1,0 +1,22 @@
+apply plugin: 'com.perfectomobile.instrumentedtest.gradleplugin'
+
+buildscript {
+    repositories {
+        jcenter()
+        maven {
+            url "http://repository-perfectomobile.forge.cloudbees.com/public/"
+        }
+    }
+  
+    dependencies {
+        classpath "com.perfectomobile.instrumentedtest.gradleplugin:plugin:+"
+    }
+}
+
+
+
+perfectoGradleSettings {
+    cloudURL "demo.perfectomobile.com"
+    securityToken "eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJzbFV4OFFBdjdVellIajd4YWstR0tTbE43UjFNSllDbC1TRVJiTlU1RFlFIn0.eyJqdGkiOiJmM2I3MmZhMi0wNjgwLTRjMWMtYWY4Yi02NDQ2ZGM2MDZhYjgiLCJleHAiOjAsIm5iZiI6MCwiaWF0IjoxNTM1Mzc5MjMzLCJpc3MiOiJodHRwczovL2F1dGgucGVyZmVjdG9tb2JpbGUuY29tL2F1dGgvcmVhbG1zL2RlbW8tcGVyZmVjdG9tb2JpbGUtY29tIiwiYXVkIjoib2ZmbGluZS10b2tlbi1nZW5lcmF0b3IiLCJzdWIiOiIzNzFhMzIxNi01YmE0LTQ2NmEtOTBmMy1lZTU4YTI1MmJlNDciLCJ0eXAiOiJPZmZsaW5lIiwiYXpwIjoib2ZmbGluZS10b2tlbi1nZW5lcmF0b3IiLCJhdXRoX3RpbWUiOjAsInNlc3Npb25fc3RhdGUiOiJhNGI2NDUyOC1hMTJhLTQ1ZGItOTZmNS0zOGE0NjNlZjU4NGEiLCJyZWFsbV9hY2Nlc3MiOnsicm9sZXMiOlsib2ZmbGluZV9hY2Nlc3MiXX0sInJlc291cmNlX2FjY2VzcyI6eyJhY2NvdW50Ijp7InJvbGVzIjpbIm1hbmFnZS1hY2NvdW50IiwibWFuYWdlLWFjY291bnQtbGlua3MiLCJ2aWV3LXByb2ZpbGUiXX19fQ.RlgLQB7bf5azMHIZK0LWuG2_dPRSSra66fNnj2_0ZFCFrXyoWQQfOqX3ykdxiVTGyPguDrlNVXH_f_TysMy2e26ftHELzQxL-M4XgPrdogkvI3sr5-aEfsoRWEHjUIk746fJllncxtbYFeV6zOgc71-b-aewYhybsFqycgc056HEK7X9flfZJIik1LNcoRSSsEtSXmDOY4arlBuMU_b0S480GR-vlQVoAW_2996_HbIVqwQVL6tWADokI9hnKKk2rpjdOrPfEC933HVgLOattq8vANkf2KFTtqG1zaJfpDLHfi3F-kf8fYniYFJs_6Jb4Qr0Ybtpl5swVrppobgoaA"
+    configFileLocation "/Users/uzie/Documents/xcuitest/Mango/ios/mangoIOS.json"
+}
