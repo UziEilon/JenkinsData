@@ -13,6 +13,4 @@ done < "$filename"
 echo "new $ver"
 echo "$(($ver+1))" >$filename
 
-cd /Users/uzie/Documents/xcuitest/Mango/Android
-
 $cmd
